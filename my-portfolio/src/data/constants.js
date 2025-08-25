@@ -3,7 +3,6 @@ import htmlLogo from '../assets/tech_logo/html.png';
 import cssLogo from '../assets/tech_logo/css.png';
 import javascriptLogo from '../assets/tech_logo/javascript.png';
 import reactjsLogo from '../assets/tech_logo/reactjs.png';
-import reduxLogo from '../assets/tech_logo/redux.png';
 import tailwindcssLogo from '../assets/tech_logo/tailwindcss.png';
 import springbootLogo from '../assets/tech_logo/springboot.png';
 import springLogo from '../assets/tech_logo/spring.png';
@@ -14,7 +13,6 @@ import mysqlLogo from '../assets/tech_logo/mysql.png';
 import javaLogo from '../assets/tech_logo/java.png';
 import gitLogo from '../assets/tech_logo/git.png';
 import githubLogo from '../assets/tech_logo/github.png';
-import vscodeLogo from '../assets/tech_logo/vscode.png';
 import postmanLogo from '../assets/tech_logo/postman.png';
 import dockerLogo from '../assets/tech_logo/docker.png';
 import sonarqubeLogo from '../assets/tech_logo/sonarqube.jpeg';
@@ -41,7 +39,7 @@ export const SkillsInfo = [
       { name: 'CSS', logo: cssLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Redux', logo: reduxLogo },
+      // { name: 'Redux', logo: reduxLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
     ],
   },
@@ -68,7 +66,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
+      // { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
       { name: 'Docker', logo: dockerLogo },
       { name: 'Sonarqube', logo: sonarqubeLogo },
@@ -158,7 +156,7 @@ export const SkillsInfo = [
       id: 0,
       title: "Urbancart Ecommerce Project",
       description:
-        "A dynamic and feature-rich Multi-Vendor Web Application built to deliver a seamless online shopping experience for customers, sellers, and administrators. Customers can easily explore products with advanced filtering, sorting, pagination, and wishlist options, while enjoying smooth cart management, secure checkout, and integrated payment gateways like Razorpay and Stripe. A smart chatbot assists users by answering queries about orders, products, and cart details. Sellers benefit from an interactive dashboard featuring sales reports, earnings graphs, and efficient product and order management tools. Meanwhile, the admin panel empowers administrators to manage sellers, coupons, deals, and homepage customization with ease. Designed with user-centric functionality and robust management features, this application ensures a comprehensive e-commerce experience for all stakeholders.",
+        "A feature-rich Multi-Vendor Web Application offering customers advanced product browsing, secure payments, and chatbot support; sellers get an interactive dashboard for sales and product management; and admins enjoy full control over sellers, deals, and platform customization.",
       image: tailwindcssLogo,
       tags: ["Tailwind CSS", "Spring Boot", "Spring Security", "React JS", "API", "Java Mail Sender", "React Router DOM", "Axios", "JWT","Payment Integration",  "Razorpay"],
       github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",

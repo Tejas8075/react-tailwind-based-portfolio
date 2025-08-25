@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
+import { TypeAnimation } from 'react-type-animation';   // ⬅️ new import
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.png';
+import profileImage from '../../assets/Profile.jpg';
 
 const About = () => {
   return (
@@ -12,44 +12,41 @@ const About = () => {
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-          {/* Greeting */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 leading-tight">
             Hi, I am
           </h1>
-          {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Tarun Kaushik
+            Tejas Mahangade
           </h2>
+
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
-            <ReactTypingEffect
-              text={[
+            <TypeAnimation
+              sequence={[
                 'Fullstack Developer',
-                'App Developer',
-                'UI/UX Designer',
-                'Coder',
+                2000,
+                'Java Developer',
+                2000,
+                'Frontend Developer',
+                2000,
+                'Backend Developer',
+                2000,
               ]}
-              speed={100}
-              eraseSpeed={50}
-              typingDelay={500}
-              eraseDelay={2000}
-              cursorRenderer={(cursor) => (
-                <span className="text-[#8245ec]">{cursor}</span>
-              )}
+              speed={50}
+              repeat={Infinity}
+              wrapper="span"
+              className="text-[#8245ec]"
             />
           </h3>
+
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+            Full Stack Java Developer with a strong foundation in backend development (Java, Spring Boot, Spring Security, MySQL, etc.) and frontend technologies (React, JavaScript, HTML, CSS, etc.). Experienced in building full-stack applications such as Urbancart, an e-commerce platform with integrated payments and role-based functionality for customers, sellers, and admins. Recognized for adaptability, problem-solving, and teamwork, I aim to grow as a developer while contributing to projects that blend technology with user-centric solutions.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
+            href="https://drive.google.com/file/d/14lE0Q7JBQ0UVUo1KKMpR6jc7xHSDh262/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -60,8 +57,10 @@ const About = () => {
           >
             DOWNLOAD CV
           </a>
-          
+
+          {/* ... rest of your content stays same ... */}
         </div>
+
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
@@ -75,7 +74,7 @@ const About = () => {
           >
             <img
               src={profileImage}
-              alt="Tarun Kaushik"
+              alt="Tejas Mahangade"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
