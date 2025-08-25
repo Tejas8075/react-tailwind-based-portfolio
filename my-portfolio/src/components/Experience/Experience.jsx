@@ -15,12 +15,10 @@ const Experience = () => {
           A collection of certifications earned throughout my journey, showcasing the skills and knowledge I have developed.        </p>
       </div>
 
-      {/* Experience Timeline */}
       <div className="relative">
         {/* Vertical line */}
         <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
 
-        {/* Experience Entries */}
         {experiences.map((experience, index) => (
           <div
             key={experience.id}
@@ -52,7 +50,6 @@ const Experience = () => {
                   />
                 </div>
 
-                {/* Role, Company Name, and Date */}
                 <div className="flex flex-col justify-between">
                   <div>
                     <h3 className="text-xl sm:text-2xl font-semibold text-white">
