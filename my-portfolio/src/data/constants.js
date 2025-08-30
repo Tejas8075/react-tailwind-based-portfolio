@@ -22,13 +22,15 @@ import linuxLogo from '../assets/tech_logo/linux.png';
 
 // Experience Section Logo's
 import JSCertificate from '../assets/company_logo/Certificate of Completion - JS.png';
+import ReactCertificate from '../assets/company_logo/Certificate of Completion - React.png'
+import SpringCertificate from '../assets/company_logo/Spring Boot Certification.png'
 
 // Education Section Logo's
 import btechLogo from "../assets/education_logo/college_of_engineering_logo.jpeg"
 import HSCLogo from "../assets/education_logo/khalsa.jpeg"
 
 // Project Section Logo's
-
+import urbancart from "../assets/work_logo/UrbancartImg.png"
 
 
 export const SkillsInfo = [
@@ -92,35 +94,40 @@ export const SkillsInfo = [
         "Async/Await",
       ],
     },
-  //   {
-  //     id: 1,
-  //     img: agcLogo,
-  //     role: "Fullstack Engineer",
-  //     company: "Agumentik Group of Companies",
-  //     date: "July 2023 - March 2024",
-  //     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-  //     skills: [
-  //       "ReactJS",
-  //       "Redux",
-  //       "JavaScript",
-  //       "Tailwind CSS",
-  //       "HTML",
-  //       "CSS",
-  //       "SQL",
-  //     ],
-  //   },
+    {
+      id: 1,
+      img: ReactCertificate,
+      role: "React and Redux",
+      company: "KnowledgeGate",
+      date: "August 2025",
+      desc: "I recently completed a React Certification, gaining hands-on experience with JSX, Fragments, Hooks (useState, useReducer), Context API, and Conditional Rendering.As part of the course, I built projects like a Social Media Post App, To-Do List, and an E-commerce UI Clone, which enhanced my problem-solving and frontend development skills.Excited to apply these skills in building scalable and interactive web applications!",
+      skills: [
+        "ReactJS",
+        "Redux",
+        "JavaScript",
+        "Bootstrap",
+      ],
+    },
+    {
+      id: 2,
+      img: SpringCertificate,
+      role: "Spring Boot Course: Certified Course for Essential Skills",
+      company: "Scaler",
+      date: "August 2025",
+      desc: "Gained hands-on experience with Spring Boot, Spring Security, Database Design, and built real-world projects like a Task Manager and Blogging App.Looking forward to applying these skills to create impactful full-stack applications!",
+      skills: [
+        "Spring",
+        "Spring Boot",
+        "Spring MVC",
+        "Spring Data JPA",
+        "Spring Security",
+        "DB Schema Design",
+        "API Design"
+      ],
+    },
   ];
   
   export const education = [
-    // {
-    //   id: 0,
-    //   img: glaLogo,
-    //   school: "GLA University, Mathura",
-    //   date: "Sept 2022 - July 2024",
-    //   grade: "7.81 CGPA",
-    //   desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-    //   degree: "Master of Computer Applications - MCA",
-    // },
     {
       id: 0,
       img: btechLogo,
@@ -156,10 +163,10 @@ export const SkillsInfo = [
       title: "Urbancart Ecommerce Project",
       description:
         "A feature-rich Multi-Vendor Web Application offering customers advanced product browsing, secure payments, and chatbot support; sellers get an interactive dashboard for sales and product management; and admins enjoy full control over sellers, deals, and platform customization.",
-      image: tailwindcssLogo,
+      image: urbancart,
       tags: ["Tailwind CSS", "Spring Boot", "Spring Security", "React JS", "API", "Java Mail Sender", "React Router DOM", "Axios", "JWT","Payment Integration",  "Razorpay"],
       github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/Urbancart%20App",
-      webapp: "https://githubprofiledetective.netlify.app/",
+      webapp: " ",
     },
     // {
     //   id: 1,
