@@ -30,7 +30,7 @@ import btechLogo from "../assets/education_logo/college_of_engineering_logo.jpeg
 import HSCLogo from "../assets/education_logo/khalsa.jpeg"
 
 // Project Section Logo's
-// import urbancart from "../assets/work_logo/UrbancartImg.png"
+import urbancart from "../assets/work_logo/UrbanCartImg.png"
 
 
 export const SkillsInfo = [
@@ -163,7 +163,7 @@ export const SkillsInfo = [
       title: "Urbancart Ecommerce Project",
       description:
         "A feature-rich Multi-Vendor Web Application offering customers advanced product browsing, secure payments, and chatbot support; sellers get an interactive dashboard for sales and product management; and admins enjoy full control over sellers, deals, and platform customization.",
-      image: tailwindcssLogo,
+      image: urbancart,
       tags: ["Tailwind CSS", "Spring Boot", "Spring Security", "React JS", "API", "Java Mail Sender", "React Router DOM", "Axios", "JWT","Payment Integration",  "Razorpay"],
       github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/Urbancart%20App",
       webapp: " ",
