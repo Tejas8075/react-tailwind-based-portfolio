@@ -123,7 +123,6 @@ export const SkillsInfo = [
     // },
     {
       id: 0,
-      // LOGO Remaining
       img: btechLogo,
       school: "Fr. Conceicao Rodrigues College of Engineering, Mumbai",
       date: "Sept 2020 - Aug 2024",
@@ -159,7 +158,7 @@ export const SkillsInfo = [
         "A feature-rich Multi-Vendor Web Application offering customers advanced product browsing, secure payments, and chatbot support; sellers get an interactive dashboard for sales and product management; and admins enjoy full control over sellers, deals, and platform customization.",
       image: tailwindcssLogo,
       tags: ["Tailwind CSS", "Spring Boot", "Spring Security", "React JS", "API", "Java Mail Sender", "React Router DOM", "Axios", "JWT","Payment Integration",  "Razorpay"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+      github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/Urbancart%20App",
       webapp: "https://githubprofiledetective.netlify.app/",
     },
     // {
