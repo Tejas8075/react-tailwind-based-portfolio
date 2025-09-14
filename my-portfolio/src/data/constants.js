@@ -31,6 +31,7 @@ import HSCLogo from "../assets/education_logo/khalsa.jpeg"
 
 // Project Section Logo's
 import urbancart from "../assets/work_logo/UrbanCartImg.png"
+import authentify from "../assets/work_logo/AuthentifyImg.png"
 
 
 export const SkillsInfo = [
@@ -168,14 +169,14 @@ export const SkillsInfo = [
       github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/Urbancart%20App",
       webapp: " ",
     },
-    // {
-    //   id: 1,
-    //   title: "CS Prep",
-    //   description:
-    //     "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    //   image: csprepLogo,
-    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-    //   github: "https://github.com/codingmastr/CSPrep",
-    //   webapp: "https://csprep.netlify.app/",
-    // },
+    {
+      id: 1,
+      title: "Authentify App",
+      description:
+        " A secure Authentication Web Application enabling users to register with email verification, log in using JWT, reset passwords via OTP, and log out safely; built with a responsive design for seamless access across devices and powered by Spring Security for robust protection.",
+      image: authentify,
+      tags: ["React JS", "Spring Boot", "MySQL", "Spring Security", "BootStrap"],
+      github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/Authentify%20App",
+      webapp: " ",
+    },
   ];  
