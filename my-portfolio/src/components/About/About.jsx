@@ -2,6 +2,7 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';   // ⬅️ new import
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/ProfileImg2.jpg';
+import resume from '../../assets/Tejas_Mahangade_Resume.pdf'
 
 const About = () => {
   return (
@@ -48,8 +49,9 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/14lE0Q7JBQ0UVUo1KKMpR6jc7xHSDh262/view?usp=drivesdk"
+            href={resume}
             target="_blank"
+            // download='resume'
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
