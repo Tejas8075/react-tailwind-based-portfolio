@@ -19,6 +19,9 @@ import sonarqubeLogo from '../assets/tech_logo/sonarqube.jpeg';
 import swaggerLogo from '../assets/tech_logo/swagger.png';
 import awsLogo from '../assets/tech_logo/aws.png';
 import linuxLogo from '../assets/tech_logo/linux.png';
+import nodejs from '../assets/tech_logo/NodeJs.png';
+import expressjs from '../assets/tech_logo/ExpressJs.png';
+import mongodb from '../assets/tech_logo/MongoDB.png';
 
 // Experience Section Logo's
 import JSCertificate from '../assets/company_logo/Certificate of Completion - JS.png';
@@ -32,6 +35,8 @@ import HSCLogo from "../assets/education_logo/khalsa.jpeg"
 // Project Section Logo's
 import urbancart from "../assets/work_logo/UrbanCartImg.png"
 import authentify from "../assets/work_logo/AuthentifyImg.png"
+import quickchat from "../assets/work_logo/QuickChat-App.png"
+import authsphere from "../assets/work_logo/AuthSphere-App.png"
 
 
 export const SkillsInfo = [
@@ -49,12 +54,15 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
+      { name: 'Node.JS', logo: nodejs },
+      { name: 'Express.Js', logo: expressjs },
       { name: 'Spring', logo: springLogo },
       { name: 'Springboot', logo: springbootLogo },
       { name: 'Spring Data JPA', logo: springdatajpaLogo },
       { name: 'Spring Web MVC', logo: springmvcLogo },
       { name: 'Spring Security', logo: springsecurityLogo },
       { name: 'MySQL', logo: mysqlLogo },
+      { name: 'MongoDB', logo: mongodb },
     ],
   },
   {
@@ -80,103 +88,124 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: JSCertificate,
-      role: "Complete JAVASCRIPT",
-      company: "KnowledgeGate",
-      date: "August 2025",
-      desc: "Gained proficiency in core and intermediate JavaScript concepts through hands-on projects, including a To-Do App, Weather App, and E-Commerce Clone, covering topics like variables, data types, DOM manipulation, and promises.",
-      skills: [
-        "JavaScript",
-        "DOM Manipulation",
-        "Promises",
-        "Async/Await",
-      ],
-    },
-    {
-      id: 1,
-      img: ReactCertificate,
-      role: "React and Redux",
-      company: "KnowledgeGate",
-      date: "August 2025",
-      desc: "I recently completed a React Certification, gaining hands-on experience with JSX, Fragments, Hooks (useState, useReducer), Context API, and Conditional Rendering.As part of the course, I built projects like a Social Media Post App, To-Do List, and an E-commerce UI Clone, which enhanced my problem-solving and frontend development skills.Excited to apply these skills in building scalable and interactive web applications!",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Bootstrap",
-      ],
-    },
-    {
-      id: 2,
-      img: SpringCertificate,
-      role: "Spring Boot Course: Certified Course for Essential Skills",
-      company: "Scaler",
-      date: "August 2025",
-      desc: "Gained hands-on experience with Spring Boot, Spring Security, Database Design, and built real-world projects like a Task Manager and Blogging App.Looking forward to applying these skills to create impactful full-stack applications!",
-      skills: [
-        "Spring",
-        "Spring Boot",
-        "Spring MVC",
-        "Spring Data JPA",
-        "Spring Security",
-        "DB Schema Design",
-        "API Design"
-      ],
-    },
-  ];
-  
-  export const education = [
-    {
-      id: 0,
-      img: btechLogo,
-      school: "Fr. Conceicao Rodrigues College of Engineering, Mumbai",
-      date: "Sept 2020 - Aug 2024",
-      grade: "8.55 CGPA",
-      desc: "I completed my Bachelor's degree in Mechanical Engineering from Fr. Conceicao Rodrigues College of Engineering, Mumbai. Throughout my studies, I was immersed in a variety of subjects of mechanics as well as Programming that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development.",
-      degree: "Bachelor of Technology (B.Tech.)",
-    },
-    {
-      id: 1,
-      img: HSCLogo,
-      school: "Guru Nanak Khalsa College of Arts, Science and Commerce , Mumbai",
-      date: "August 2018 - March 2020",
-      grade: "84.15%",
-      desc: "I completed my class 12th education from Guru Nanak Khalsa College of Arts, Science and Commerce , Mumbai, under the HSC board, where I studied Physics, Chemistry, and Mathematics and Biology (PCMB).",
-      degree: "HSC(XII) - PCMB",
-    },
-    {
-      id: 2,
-      img: '',
-      school: "Sacred Heart High School, Mumbai",
-      date: "March 2018",
-      grade: "86.20%",
-      desc: "I completed my class 10th education from Sacred Heart High School, Mumbai, under the SSC board.",
-      degree: "SSC(X)",
-    },
-  ];
-  
-  export const projects = [
-    {
-      id: 0,
-      title: "Urbancart Ecommerce Project",
-      description:
-        "A feature-rich Multi-Vendor Web Application offering customers advanced product browsing, secure payments, and chatbot support; sellers get an interactive dashboard for sales and product management; and admins enjoy full control over sellers, deals, and platform customization.",
-      image: urbancart,
-      tags: ["Tailwind CSS", "Spring Boot", "Spring Security", "React JS", "API", "Java Mail Sender", "React Router DOM", "Axios", "JWT","Payment Integration",  "Razorpay"],
-      github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/Urbancart%20App",
-      webapp: " ",
-    },
-    {
-      id: 1,
-      title: "Authentify App",
-      description:
-        " A secure Authentication Web Application enabling users to register with email verification, log in using JWT, reset passwords via OTP, and log out safely; built with a responsive design for seamless access across devices and powered by Spring Security for robust protection.",
-      image: authentify,
-      tags: ["React JS", "Spring Boot", "MySQL", "Spring Security", "BootStrap"],
-      github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/Authentify%20App",
-      webapp: " ",
-    },
-  ];  
+export const experiences = [
+  {
+    id: 0,
+    img: JSCertificate,
+    role: "Complete JAVASCRIPT",
+    company: "KnowledgeGate",
+    date: "August 2025",
+    desc: "Gained proficiency in core and intermediate JavaScript concepts through hands-on projects, including a To-Do App, Weather App, and E-Commerce Clone, covering topics like variables, data types, DOM manipulation, and promises.",
+    skills: [
+      "JavaScript",
+      "DOM Manipulation",
+      "Promises",
+      "Async/Await",
+    ],
+  },
+  {
+    id: 1,
+    img: ReactCertificate,
+    role: "React and Redux",
+    company: "KnowledgeGate",
+    date: "August 2025",
+    desc: "I recently completed a React Certification, gaining hands-on experience with JSX, Fragments, Hooks (useState, useReducer), Context API, and Conditional Rendering.As part of the course, I built projects like a Social Media Post App, To-Do List, and an E-commerce UI Clone, which enhanced my problem-solving and frontend development skills.Excited to apply these skills in building scalable and interactive web applications!",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "JavaScript",
+      "Bootstrap",
+    ],
+  },
+  {
+    id: 2,
+    img: SpringCertificate,
+    role: "Spring Boot Course: Certified Course for Essential Skills",
+    company: "Scaler",
+    date: "August 2025",
+    desc: "Gained hands-on experience with Spring Boot, Spring Security, Database Design, and built real-world projects like a Task Manager and Blogging App.Looking forward to applying these skills to create impactful full-stack applications!",
+    skills: [
+      "Spring",
+      "Spring Boot",
+      "Spring MVC",
+      "Spring Data JPA",
+      "Spring Security",
+      "DB Schema Design",
+      "API Design"
+    ],
+  },
+];
+
+export const education = [
+  {
+    id: 0,
+    img: btechLogo,
+    school: "Fr. Conceicao Rodrigues College of Engineering, Mumbai",
+    date: "Sept 2020 - Aug 2024",
+    grade: "8.55 CGPA",
+    desc: "I completed my Bachelor's degree in Mechanical Engineering from Fr. Conceicao Rodrigues College of Engineering, Mumbai. Throughout my studies, I was immersed in a variety of subjects of mechanics as well as Programming that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development.",
+    degree: "Bachelor of Technology (B.Tech.)",
+  },
+  {
+    id: 1,
+    img: HSCLogo,
+    school: "Guru Nanak Khalsa College of Arts, Science and Commerce , Mumbai",
+    date: "August 2018 - March 2020",
+    grade: "84.15%",
+    desc: "I completed my class 12th education from Guru Nanak Khalsa College of Arts, Science and Commerce , Mumbai, under the HSC board, where I studied Physics, Chemistry, and Mathematics and Biology (PCMB).",
+    degree: "HSC(XII) - PCMB",
+  },
+  {
+    id: 2,
+    img: '',
+    school: "Sacred Heart High School, Mumbai",
+    date: "March 2018",
+    grade: "86.20%",
+    desc: "I completed my class 10th education from Sacred Heart High School, Mumbai, under the SSC board.",
+    degree: "SSC(X)",
+  },
+];
+
+export const projects = [
+  {
+    id: 0,
+    title: "QuickChat App",
+    description:
+      "Built a real- time chat application with secure authentication and a responsive UI.Implemented one - to - one messaging with Socket.IO, seen / unseen indicators, profile management, and image sharing.Designed a modern frontend with React & Tailwind CSS and a secure backend with Node.js, Express, MongoDB, JWT,and bcrypt.",
+    image: quickchat,
+    tags: ["React JS", "Node JS", "Express JS", "MongoDB", "Tailwind CSS", "Axios", "Context API", "JWT", "Socket.io", "bcryptjs"],
+    github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/QuickChat-App",
+    webapp: "https://quick-chat-sage-tau.vercel.app",
+  },
+  {
+    id: 1,
+    title: "AuthSphere App",
+    description:
+      " A secure Authentication Web Application enabling users to register with email verification, log in using JWT, reset passwords via OTP, and log out safely; built with a responsive design for seamless access across devices and powered by Spring Security for robust protection.",
+    image: authsphere,
+    tags: ["React JS", "Node JS", "Express JS", "MongoDB", "Tailwind CSS", "Axios", "Context API", "JWT", "bcryptjs"],
+    github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/AuthSphere%20App",
+    webapp: " ",
+  },
+  {
+    id: 2,
+    title: "Urbancart Ecommerce Project",
+    description:
+      "A feature-rich Multi-Vendor Web Application offering customers advanced product browsing, secure payments, and chatbot support; sellers get an interactive dashboard for sales and product management; and admins enjoy full control over sellers, deals, and platform customization.",
+    image: urbancart,
+    tags: ["Tailwind CSS", "Spring Boot", "Spring Security", "React JS", "API", "Java Mail Sender", "React Router DOM", "Axios", "JWT", "Payment Integration", "Razorpay"],
+    github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/Urbancart%20App",
+    webapp: " ",
+  },
+  {
+    id: 3,
+    title: "Authentify App",
+    description:
+      " A secure Authentication Web Application enabling users to register with email verification, log in using JWT, reset passwords via OTP, and log out safely; built with a responsive design for seamless access across devices and powered by Spring Security for robust protection.",
+    image: authentify,
+    tags: ["React JS", "Spring Boot", "MySQL", "Spring Security", "BootStrap"],
+    github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/Authentify%20App",
+    webapp: " ",
+  },
+
+];  

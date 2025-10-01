@@ -26,6 +26,8 @@ const About = () => {
               sequence={[
                 'Fullstack Developer',
                 2000,
+                'MERN Stack Developer',
+                2000,
                 'Java Developer',
                 2000,
                 'Frontend Developer',
@@ -42,7 +44,7 @@ const About = () => {
 
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Full Stack Java Developer with a strong foundation in backend development (Java, Spring Boot, Spring Security, MySQL, etc.) and frontend technologies (React, JavaScript, HTML, CSS, etc.). Experienced in building full-stack applications such as Urbancart, an e-commerce platform with integrated payments and role-based functionality for customers, sellers, and admins. Recognized for adaptability, problem-solving, and teamwork, I aim to grow as a developer while contributing to projects that blend technology with user-centric solutions.
+            Full Stack  Developer with a strong foundation in backend development (Java, JavaScript, Node Js, Express JS, Spring Boot, Spring Security, MySQL, MongoDB etc.) and frontend technologies (React, JavaScript, HTML, CSS, etc.). Experienced in building full-stack applications such as Urbancart, an e-commerce platform with integrated payments and role-based functionality for customers, sellers, and admins. Recognized for adaptability, problem-solving, and teamwork, I aim to grow as a developer while contributing to projects that blend technology with user-centric solutions.
           </p>
           {/* Resume Button */}
           <a
