@@ -2,7 +2,8 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';   // ⬅️ new import
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/ProfileImg2.jpg';
-import resume from '../../assets/Tejas_Mahangade_Resume.pdf'
+import mernresume from '../../assets/Tejas_Mahangade_Resume.pdf'
+import javaresume from '../../assets/Tejas_Mahangade_Java_Developer_Main.pdf'
 
 const About = () => {
   return (
@@ -47,20 +48,36 @@ const About = () => {
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
             Full Stack  Developer with a strong foundation in backend development (Java, JavaScript, Node Js, Express JS, Spring Boot, Spring Security, MySQL, MongoDB etc.) and frontend technologies (React, JavaScript, HTML, CSS, etc.). Experienced in building full-stack applications such as Urbancart, an e-commerce platform with integrated payments and role-based functionality for customers, sellers, and admins. Recognized for adaptability, problem-solving, and teamwork, I aim to grow as a developer while contributing to projects that blend technology with user-centric solutions.
           </p>
-          {/* Resume Button */}
-          <a
-            href={resume}
-            target="_blank"
-            // download='resume'
-            rel="noopener noreferrer"
-            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
-            style={{
-              background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
-            }}
-          >
-            DOWNLOAD CV
-          </a>
+
+          <div className="flex flex-row gap-4 mt-5">
+            {/* MERN CV Button */}
+            <a
+              href={mernresume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105"
+              style={{
+                background: 'linear-gradient(90deg, #8245ec, #a855f7)',
+                boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              }}
+            >
+              DOWNLOAD MERN CV
+            </a>
+
+            {/* JAVA CV Button */}
+            <a
+              href={javaresume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105"
+              style={{
+                background: 'linear-gradient(90deg, #8245ec, #a855f7)',
+                boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              }}
+            >
+              DOWNLOAD JAVA CV
+            </a>
+          </div>
 
           {/* ... rest of your content stays same ... */}
         </div>

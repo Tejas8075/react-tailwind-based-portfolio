@@ -33,7 +33,7 @@ import btechLogo from "../assets/education_logo/college_of_engineering_logo.jpeg
 import HSCLogo from "../assets/education_logo/khalsa.jpeg"
 
 // Project Section Logo's
-import urbancart from "../assets/work_logo/UrbanCartImg.png"
+import billox from "../assets/work_logo/BilloXImg.png"
 import authentify from "../assets/work_logo/AuthentifyImg.png"
 import quickchat from "../assets/work_logo/QuickChat-App.png"
 import authsphere from "../assets/work_logo/AuthSphere-App.png"
@@ -169,7 +169,7 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "QuickChat App",
+    title: "QuickChat App (Full Stack Chat Application)",
     description:
       "Built a real- time chat application with secure authentication and a responsive UI.Implemented one - to - one messaging with Socket.IO, seen / unseen indicators, profile management, and image sharing.Designed a modern frontend with React & Tailwind CSS and a secure backend with Node.js, Express, MongoDB, JWT,and bcrypt.",
     image: quickchat,
@@ -179,22 +179,22 @@ export const projects = [
   },
   {
     id: 1,
+    title: "BilloX (Full Stack Retail Billing System)",
+    description:
+      "A comprehensive retail billing application enabling users to browse products, manage carts, and complete secure payments via Cash or Razorpay; admins can efficiently manage items, categories, and users through a robust dashboard. The system features JWT-based authentication, real-time UI updates, and a fully responsive interface for seamless user experience.",
+    image: billox,
+    tags: ["Java", "Spring Boot", "Spring Security", "React JS", "API", "Spring MVC", "React Router", "Axios", "JWT", "Payment Integration", "Razorpay", "Postman"],
+    github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/BilloX-App",
+    webapp: "https://billo-x-khaki.vercel.app",
+  },
+  {
+    id: 2,
     title: "AuthSphere App",
     description:
       " A secure Authentication Web Application enabling users to register with email verification, log in using JWT, reset passwords via OTP, and log out safely; built with a responsive design for seamless access across devices and powered by Spring Security for robust protection.",
     image: authsphere,
     tags: ["React JS", "Node JS", "Express JS", "MongoDB", "Tailwind CSS", "Axios", "Context API", "JWT", "bcryptjs"],
     github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/AuthSphere%20App",
-    webapp: " ",
-  },
-  {
-    id: 2,
-    title: "Urbancart Ecommerce Project",
-    description:
-      "A feature-rich Multi-Vendor Web Application offering customers advanced product browsing, secure payments, and chatbot support; sellers get an interactive dashboard for sales and product management; and admins enjoy full control over sellers, deals, and platform customization.",
-    image: urbancart,
-    tags: ["Tailwind CSS", "Spring Boot", "Spring Security", "React JS", "API", "Java Mail Sender", "React Router DOM", "Axios", "JWT", "Payment Integration", "Razorpay"],
-    github: "https://github.com/Tejas8075/Full-Stack-Projects/tree/main/Urbancart%20App",
     webapp: " ",
   },
   {
